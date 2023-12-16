@@ -4,7 +4,8 @@
 - This project focuses on using a hand gesture control device to control the movement of the robotic arm intuitively
 - The hand gesture control device is attached on a glove, so that the user can wear the glove and control the robotic arm easily
 - Controls of the Robotic arm include pitch, yaw, roll and end-effector linear movements of the robotic arm and also opening/closing of the gripper
-- Pitch, yaw, roll data are measured using a GY-85 9DOF IMU sensor, end-effector linear movements are measured using ultrasonic sensor and also, opening/closing   of gripper is measured with a flex sensor
+- Pitch, yaw, roll data are measured using a GY-85 9DOF IMU sensor, end-effector linear movements are measured using ultrasonic sensor, and also the
+  opening/closing of gripper is measured with a flex sensor
 - Such hand gestures control data is transmitted from Arduino to the Interbotix WX200 Robotic Arm
 
 # Data Transmission
