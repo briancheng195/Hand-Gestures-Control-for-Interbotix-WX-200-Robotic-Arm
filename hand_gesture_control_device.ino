@@ -82,8 +82,8 @@ void loop() {
   // Calculate angle for Flex sensor 
   angleValue = analogRead(flexPin); 
   output = 0                  // Indication that the gripper of the arm is opened
-  if (angleValue > 0) {       // When flex sensor is bent, angle value increases
-    output = 1                // User grips his hand, indication that the gripper of the arm would be closed
+  if (angleValue > 60) {      // When flex sensor is bent, angle value increases
+    output = 1;               // User grips his hand, indication that the gripper of the arm would be closed
   }
   
   Serial.print(distanceDifference);
